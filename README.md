@@ -1,27 +1,26 @@
 # Medical-Query-Response-Chatbot
 
-# How to run !!
-# STEPS:
+# Steps to run:
 
 First of all clone the repository
-'''bash
+```bash
 git clone https://github.com/Mozeel-V/Medical-Query-Response-Chatbot.git
-'''
+```
 
 ## STEP 1: Create a conda environment after opening the repository
 
-'''bash
+```bash
 conda create -n medibot python=3.10 -y
-'''
+```
 
 ## STEP 2: Activate the environment
 
-'''bash
+```bash
 conda activate medibot
-'''
+```
 
 ## STEP 3: Install the requirements
 
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
