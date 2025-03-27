@@ -2,7 +2,7 @@
 
 # Steps to run:
 
-First of all clone the repository
+Clone the repository
 ```bash
 git clone https://github.com/Mozeel-V/Medical-Query-Response-Chatbot.git
 ```
@@ -23,4 +23,16 @@ conda activate medibot
 
 ```bash
 pip install -r requirements.txt
+```
+
+## STEP 4: Create the vector database
+
+```bash
+python store_index.py
+```
+
+## STEP 5: Run the app on your localhost
+
+```bash
+python app.py
 ```
